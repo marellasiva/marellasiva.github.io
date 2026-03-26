@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Marella Siva | Projects</title>
+    <meta name="title" content="Marella Siva | Projects">
+    <meta name="description" content="Explore the advanced web development, AI, and IoT project portfolio of Marella Siva. Featuring full-stack applications, machine learning systems, and hardware-software integrations.">
+    <meta name="author" content="Marella Siva">
+    <meta name="keywords" content="Marella Siva, Frontend Developer, Web Projects, React, JavaScript, Full Stack, Portfolio, Software Engineer">
+
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="https://marellasiva.site/projects.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://marellasiva.site/projects.html">
+    <meta property="og:title" content="Marella Siva | Projects">
+    <meta property="og:description" content="Explore the advanced web development, AI, and IoT project portfolio of Marella Siva.">
+    <meta property="og:image" content="https://marellasiva.site/assets/img/dp1.jpg">
+    <meta property="og:site_name" content="Marella Siva Portfolio">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://marellasiva.site/projects.html">
+    <meta property="twitter:title" content="Marella Siva | Projects">
+    <meta property="twitter:description" content="Explore the advanced web development, AI, and IoT project portfolio of Marella Siva.">
+    <meta property="twitter:image" content="https://marellasiva.site/assets/img/dp1.jpg">
+    <meta property="twitter:creator" content="@marellasiva">
+
+    <meta name="theme-color" content="#149ddd">
+    <link href="assets/img/marella.png" rel="icon">
+    <link href="assets/img/marella.png" rel="apple-touch-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Marella Siva Projects Portfolio",
+      "description": "A comprehensive collection of software engineering, frontend development, and AI projects by Marella Siva.",
+      "url": "https://marellasiva.site/projects.html",
+      "author": {
+        "@type": "Person",
+        "name": "Marella Siva",
+        "url": "https://marellasiva.site",
+        "sameAs": [
+          "https://www.linkedin.com/in/marellasiva",
+          "https://github.com/marellasiva"
+        ]
+      }
+    }
+    </script>
+
+    <style>
+        :root {
+            --bg-pure: #ffffff;
+            --bg-alabaster: #f8f9fa;
+            --text-dark: #173b6c;
+            --text-muted: #6c757d;
+            --primary: #149ddd;
+            --border-light: rgba(23, 59, 108, 0.1);
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: var(--bg-alabaster);
+            color: #333333;
+            overflow-x: hidden;
+            margin: 0;
+        }
+
+        /* Subtle blueprint grid for the light body */
+        .page-grid-overlay {
+            position: fixed;
+            inset: 0;
+            background-image:
+                linear-gradient(rgba(23, 59, 108, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(23, 59, 108, 0.03) 1px, transparent 1px);
+            background-size: 40px 40px;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        #main {
+            margin-left: 300px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* --- QUANTUM HUD SIDEBAR --- */
+        #header.quantum-sidebar {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            bottom: 0 !important;
+            width: 300px !important;
+            background: #02050a !important;
+            border-right: 1px solid rgba(20, 157, 221, 0.15) !important;
+            z-index: 9997 !important;
+            overflow-y: auto;
+        }
+
+        .sidebar-core {
+            padding: 50px 30px 100px 30px;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Profile Module */
+        .q-profile-module { display: flex; flex-direction: column; align-items: center; margin-bottom: 50px; }
+        .q-frame-wrapper { position: relative; width: 120px; height: 130px; margin-bottom: 25px; }
+        .q-wireframe { position: absolute; top: 8px; left: 8px; width: 100%; height: 100%; border: 1px solid var(--primary); z-index: 1; transition: 0.5s; }
+        .q-profile-img { width: 100%; height: 100%; object-fit: cover; position: relative; z-index: 2; border: 1px solid rgba(255,255,255,0.1); }
+        .q-target-corners { position: absolute; inset: -5px; background: linear-gradient(to right, var(--primary) 2px, transparent 2px) 0 0, linear-gradient(to right, var(--primary) 2px, transparent 2px) 0 100%, linear-gradient(to left, var(--primary) 2px, transparent 2px) 100% 0, linear-gradient(to left, var(--primary) 2px, transparent 2px) 100% 100%, linear-gradient(to bottom, var(--primary) 2px, transparent 2px) 0 0, linear-gradient(to bottom, var(--primary) 2px, transparent 2px) 100% 0, linear-gradient(to top, var(--primary) 2px, transparent 2px) 0 100%, linear-gradient(to top, var(--primary) 2px, transparent 2px) 100% 100%; background-repeat: no-repeat; background-size: 8px 8px; z-index: 3; opacity: 0; transition: 0.5s; }
+        .q-frame-wrapper:hover .q-target-corners { opacity: 1; inset: -10px; }
+        .q-frame-wrapper:hover .q-wireframe { transform: translate(-8px, -8px); }
+
+        .q-signature { font-family: "Raleway", sans-serif; font-size: 24px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; margin: 0; }
+        .q-signature a { color: #fff; text-decoration: none; }
+
+        .q-status-badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(20, 157, 221, 0.1); border: 1px solid rgba(20, 157, 221, 0.2); padding: 5px 12px; margin-top: 15px; }
+        .q-pulse-dot { width: 6px; height: 6px; background: var(--primary); border-radius: 50%; box-shadow: 0 0 10px var(--primary); animation: q-pulse 2s infinite; }
+        @keyframes q-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+        .q-status-txt { font-family: "Poppins", sans-serif; font-size: 9px; font-weight: 700; color: var(--primary); letter-spacing: 1px; }
+
+        /* Bracket Nav */
+        .q-nav-menu ul { list-style: none; padding: 0; margin-top: 30px; }
+        .q-nav-menu a { display: flex; align-items: center; padding: 12px 0; color: rgba(255,255,255,0.4); font-family: "Poppins", sans-serif; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 2px; text-decoration: none; transition: 0.4s; }
+        .q-nav-menu i { font-size: 18px; margin-right: 20px; transition: 0.4s; }
+        .n-text { position: relative; padding: 0 10px; }
+        .n-text::before, .n-text::after { position: absolute; top: 50%; transform: translateY(-50%); color: var(--primary); opacity: 0; transition: 0.4s; }
+        .n-text::before { content: '['; left: -5px; }
+        .n-text::after { content: ']'; right: -5px; }
+        .q-nav-menu a:hover, .q-nav-menu .active { color: #fff; }
+        .q-nav-menu a:hover i, .q-nav-menu .active i { color: var(--primary); }
+        .q-nav-menu a:hover .n-text::before, .q-nav-menu .active .n-text::before { opacity: 1; left: 0; }
+        .q-nav-menu a:hover .n-text::after, .q-nav-menu .active .n-text::after { opacity: 1; right: 0; }
+
+        /* Sidebar Socials */
+        .q-social-module { display: flex; justify-content: flex-start; gap: 15px; margin-top: auto; padding-top: 40px; border-top: 1px solid rgba(255, 255, 255, 0.05); }
+        .q-social-module a { display: flex; justify-content: center; align-items: center; width: 36px; height: 36px; border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(255, 255, 255, 0.5); font-size: 18px; transition: 0.3s; }
+        .q-social-module a:hover { background: var(--primary); border-color: var(--primary); color: #fff; transform: translateY(-3px); }
+
+        /* Footer Unified with Sidebar */
+        #footer { background: #02050a !important; border-top: 1px solid rgba(20, 157, 221, 0.15); width: 300px; padding: 20px 0; position: fixed; bottom: 0; left: 0; z-index: 9999; }
+        #footer .credits { text-align: center; font-size: 11px; color: rgba(255,255,255,0.3); text-transform: uppercase; font-family: "Poppins"; }
+        #footer .credits a { color: var(--primary); font-weight: 700; text-decoration: none; }
+
+        /* --- PROJECT ARCHIVE SPECIFIC --- */
+        .archive-header { padding: 80px 0 40px 0; border-bottom: 1px solid var(--border-light); margin-bottom: 60px; }
+        .archive-title { font-family: 'Raleway', sans-serif; font-size: 4rem; font-weight: 900; color: var(--text-dark); letter-spacing: -3px; line-height: 1; margin-bottom: 15px; }
+        .archive-subtitle { font-family: 'Poppins', sans-serif; font-size: 13px; font-weight: 700; color: var(--primary); letter-spacing: 5px; text-transform: uppercase; }
+
+        .project-editorial-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px; margin-bottom: 100px; }
+
+        .editorial-card { position: relative; background: #fff; border: 1px solid var(--border-light); padding: 40px; transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1); cursor: default; }
+        .editorial-card:hover { border-color: var(--primary); transform: translateY(-10px); box-shadow: 0 30px 60px rgba(23, 59, 108, 0.08); }
+
+        .card-num { font-family: 'Poppins', sans-serif; font-size: 11px; font-weight: 700; color: var(--primary); margin-bottom: 25px; display: block; letter-spacing: 2px; }
+        .card-title { font-family: 'Raleway', sans-serif; font-size: 2.2rem; font-weight: 800; color: var(--text-dark); margin-bottom: 20px; line-height: 1.1; }
+        .card-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 30px; }
+        .tag { font-family: 'Poppins', sans-serif; font-size: 9px; font-weight: 700; color: var(--text-muted); border: 1px solid var(--border-light); padding: 4px 10px; text-transform: uppercase; letter-spacing: 1px; }
+        .editorial-card:hover .tag { border-color: var(--primary); color: var(--primary); }
+
+        .card-desc { font-family: 'Open Sans', sans-serif; font-size: 1rem; color: #555; line-height: 1.8; margin-bottom: 40px; }
+
+        .card-actions { display: flex; align-items: center; gap: 25px; border-top: 1px solid var(--border-light); padding-top: 30px; }
+        .action-link { font-family: 'Poppins', sans-serif; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: var(--text-dark); display: flex; align-items: center; gap: 10px; transition: 0.3s; }
+        .action-link:hover { color: var(--primary); transform: translateX(5px); }
+        .action-link i { font-size: 16px; }
+
+        /* Dynamic Stats Mockup */
+        .card-stats { position: absolute; right: 40px; top: 40px; display: flex; flex-direction: column; align-items: flex-end; gap: 5px; opacity: 0.3; transition: 0.4s; }
+        .editorial-card:hover .card-stats { opacity: 1; }
+        .stat-bar { height: 2px; background: var(--primary); margin-bottom: 4px; }
+
+        @media (max-width: 1199px) {
+            #header.quantum-sidebar, #footer { left: -300px !important; }
+            #main { margin-left: 0 !important; }
+            .mobile-nav-active #header.quantum-sidebar, .mobile-nav-active #footer { left: 0 !important; }
+            .mobile-nav-toggle { color: var(--primary) !important; position: fixed; top: 15px; right: 15px; z-index: 9999; font-size: 30px; cursor: pointer; }
+            .project-editorial-grid { grid-template-columns: 1fr; }
+            .archive-title { font-size: 3rem; }
+        }
+
+        @media (max-width: 768px) {
+            .archive-title { font-size: 2.2rem; }
+            .editorial-card { padding: 30px 20px; }
+            .card-title { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="page-grid-overlay"></div>
+    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+    <header id="header" class="quantum-sidebar">
+        <div class="sidebar-core">
+            <div class="q-profile-module">
+                <div class="q-frame-wrapper">
+                    <div class="q-wireframe"></div>
+                    <img src="assets/img/dp1.jpg" alt="Marella Siva" class="img-fluid q-profile-img">
+                    <div class="q-target-corners"></div>
+                </div>
+                <h1 class="q-signature"><a href="index.html">Marella Siva</a></h1>
+                <div class="q-status-badge">
+                    <span class="q-pulse-dot"></span>
+                    <span class="q-status-txt">SOTWARE DEVELOPER</span>
+                </div>
+            </div>
+
+            <nav id="navbar" class="q-nav-menu">
+                <ul>
+                    <li><a href="index.html#hero" class="nav-link scrollto"><i class="bx bx-home"></i><span class="n-text">Home</span></a></li>
+                    <li><a href="index.html#about" class="nav-link scrollto"><i class="bx bx-user"></i><span class="n-text">About</span></a></li>
+                    <li><a href="index.html#projects" class="nav-link scrollto active"><i class="bx bx-task"></i><span class="n-text">Projects</span></a></li>
+                    <li><a href="index.html#education" class="nav-link scrollto"><i class="bx bx-book"></i><span class="n-text">Education</span></a></li>
+                    <li><a href="index.html#awards" class="nav-link scrollto"><i class="bx bx-award"></i><span class="n-text">Awards</span></a></li>
+                    <li><a href="index.html#interests" class="nav-link scrollto"><i class="bx bx-heart"></i><span class="n-text">Interests</span></a></li>
+                    <li><a href="index.html#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i><span class="n-text">Contact</span></a></li>
+                </ul>
+            </nav>
+
+            <div class="q-social-module">
+                <a href="https://github.com/marellasiva" target="_blank" rel="noopener"><i class="bx bxl-github"></i></a>
+                <a href="https://www.facebook.com/sivakumar.marella.9" target="_blank" rel="noopener"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/__s_i_v_a__18_/" target="_blank" rel="noopener"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/marellasiva/" target="_blank" rel="noopener"><i class="bx bxl-linkedin"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="credits">
+                Design <a href="https://marellasiva.site/">Marella Siva.</a>
+            </div>
+        </div>
+    </footer>
+
+    <main id="main">
+        <section class="archive-header">
+            <div class="container">
+                <h2 class="archive-title">Project <br> Archive.</h2>
+                <div class="archive-subtitle">Engineering & Architectural Record</div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div id="project-container" class="project-editorial-grid">
+                <!-- Projects will be injected here by JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        const projectData = [
+            {
+                num: "01",
+                title: "WhatsApp Chat Parser",
+                tags: ["Python", "Streamlit", "NLTK", "Regex"],
+                desc: "A high-performance analysis engine that transforms raw WhatsApp exports into interactive behavioral insights. Features include message frequency heatmaps, word cloud generation, and emoji sentiment distribution.",
+                demoUrl: "https://marellasiva.netlify.app/",
+                githubUrl: "https://github.com/marellasiva/WhatsApp-Chat-Parser.git"
+            },
+            {
+                num: "02",
+                title: "Smart Assistive Navigation System",
+                tags: ["Python", "Computer Vision", "TensorFlow", "IoT"],
+                desc: "A real-time obstacle detection and navigation assistant for the visually impaired. Utilizes depth sensing and spatial audio feedback to provide seamless environmental awareness.",
+                demoUrl: "https://marella222.netlify.app/",
+                githubUrl: "https://github.com/marellasiva/Smart-Assistive-Navigation-System.git"
+            },
+            {
+                num: "03",
+                title: "E-Commerce Platform",
+                tags: ["React", "Node.js", "MongoDB", "Redux"],
+                desc: "A full-stack editorial commerce experience featuring dynamic product filtering, secure checkout integration, and a sophisticated administrative dashboard.",
+                demoUrl: "https://agent-69c50b4ead09d0a949e7b--dapper-blini-9a9984.netlify.app/",
+                githubUrl: "https://github.com/marellasiva/E-commerce.git"
+            },
+            {
+                num: "04",
+                title: "Twitter Clone",
+                tags: ["React", "Firebase", "Tailwind CSS", "Framer Motion"],
+                desc: "A high-fidelity social media replica featuring real-time feed updates, user authentication, and interactive tweet engagements with smooth cinematic transitions.",
+                demoUrl: "https://sivamarella.netlify.app/",
+                githubUrl: "https://github.com/marellasiva/twitter-clone.git"
+            }
+
+        ];
+
+        function renderProjects() {
+            const container = document.getElementById('project-container');
+            container.innerHTML = projectData.map(p => {
+                const isDemoAvailable = p.demoUrl && p.demoUrl !== "#";
+                return `
+                <div class="editorial-card" data-aos="fade-up">
+                    <span class="card-num">${p.num}</span>
+                    <h3 class="card-title">${p.title}</h3>
+                    <div class="card-tags">
+                        ${p.tags.map(t => `<span class="tag">${t}</span>`).join('')}
+                    </div>
+                    <p class="card-desc">${p.desc}</p>
+                    <div class="card-actions">
+                        ${isDemoAvailable ?
+                            `<a href="${p.demoUrl}" target="_blank" rel="noopener" class="action-link">Live Launch <i class="bi bi-arrow-up-right"></i></a>` :
+                            `<a href="#" class="action-link" style="opacity: 0.5; cursor: not-allowed;" onclick="return false;">Coming Soon <i class="bi bi-clock"></i></a>`
+                        }
+                        <a href="${p.githubUrl}" target="_blank" class="action-link">System Repo <i class="bi bi-github"></i></a>
+                    </div>
+                    <div class="card-stats">
+                        <div class="stat-bar" style="width: 20px;"></div>
+                        <div class="stat-bar" style="width: 40px;"></div>
+                        <div class="stat-bar" style="width: 15px;"></div>
+                    </div>
+                </div>
+            `}).join('');
+
+            // Initialize GLightbox for the dynamic content
+            GLightbox({
+                selector: '.glightbox',
+                touchNavigation: true,
+                loop: false,
+                width: '90vw',
+                height: '90vh'
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            renderProjects();
+            AOS.init({ duration: 1000, once: true });
+        });
+    </script>
+
+</body>
+</html>
